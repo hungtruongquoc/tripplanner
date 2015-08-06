@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+ul{
+  &.table-of-contents{
+    padding-top: 100px;
+  }
+}
+
+div{
+  &.trip-item{
+    padding: 10px 0 10px 0;
+  }
+}
+
+.tp-icon{
+  font-size: 24px;
+}
+
+@import 'trips/_create';
